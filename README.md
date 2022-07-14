@@ -4,3 +4,16 @@
 2. Generate SSH key pair.
 3. Create Other client nodes and copy previously generated public key in to authorized_keys file.
 4. Check ssh is working between control plan node and client nodes.
+
+
+
+-Important Ansible Commands-
+
+1. ansible-inventory --list
+2. ansible -m localhost ping
+3. ansible-playbook --syntax-check httpd-install.yml
+4. ansible-playbook --check httpd-install.yml
+5. ansible-playbook httpd-install.yaml
+6. 
+
+
