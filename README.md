@@ -16,6 +16,6 @@
 5. ansible-playbook --syntax-check httpd-install.yml
 6. ansible-playbook --check httpd-install.yml
 7. ansible-playbook httpd-install.yaml
-8. 
+8. ansible-playbook change-password.yml --extra-vars newpassword=1qaz2wsx
 
 
