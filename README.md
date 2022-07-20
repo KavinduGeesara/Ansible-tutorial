@@ -19,5 +19,7 @@
 8. ansible-playbook change-password.yml --extra-vars newpassword=1qaz2wsx
 9. ansible-playbook client-side-httpd-install.yml --start-at-task 'install telnet'
 
+-Ansible ad-hok commands-
 
+ansible [target] -m [module] -a [module options]
 
