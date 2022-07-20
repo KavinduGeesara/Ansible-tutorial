@@ -17,5 +17,7 @@
 6. ansible-playbook --check httpd-install.yml
 7. ansible-playbook httpd-install.yaml
 8. ansible-playbook change-password.yml --extra-vars newpassword=1qaz2wsx
+9. ansible-playbook client-side-httpd-install.yml --start-at-task 'install telnet'
+
 
 
